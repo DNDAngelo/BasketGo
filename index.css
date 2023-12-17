@@ -1,0 +1,80 @@
+.center-text {
+    text-align: center;
+}
+
+a:hover{
+background-color: wheat;
+}
+body {
+    background-image: url(basketball.html/b1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+    padding-left: 3px;
+}
+
+body {
+    width: 80;
+    margin: auto;
+}
+
+#menu {
+    margin-top: 10px;
+    border: 1px solid brown;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#menu a {
+    display: inline-block;
+    padding: 10px;
+}
+
+#content {
+    margin-top: 10px;
+    border: 10px solid brown;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+p {
+    text-align: justify;
+}
+
+td {
+    padding: 5px;
+    padding-left: 3px;
+}
+
+th {
+    text-align: left;
+}
+
+input[type="text"] {
+    display: block;
+    padding: 5px;
+    min-width: 200px;
+    width: 300px;
+}
+
+.block {
+    display: block;
+    padding: 5px;
+    width: 100px;
+}
+
+select {
+    padding: 5px;
+}
+
+
+a {
+    text-decoration: none;
+}
